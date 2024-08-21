@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center; 
+    padding: 10px; 
+    background-color: rgb(127, 236, 255); 
+    height: 100px; 
+    
+}
+.containerbotones{
+    margin-left: 886px;
+    margin-top: auto;
+    width: 100%;
+
+
+
+}
+.botonesheader{
+    border: 1px solid #ccc; 
+    padding:  10px;  
+    cursor: pointer; 
+    border-radius: 10px; 
+    position: relative;
+    
+    
+}
+
+.navegador{
+    background-color: aqua;
+}
+body{
+   background-image: url(img/Captura\ de\ pantalla\ 2024-08-16\ 151015.png);
+   
+}
+.section{
+    background-color: transparent;
+    width: 50%;
+    height: 143px;
+}
+.f30{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #e8eff0;
+    text-align: center;
+    background-color: transparent;
+}
+.aside{
+    background-color: transparent;
+    width: 50%;
+    height: 143px;
+}
+.volver{
+    text-decoration: none;
+    text-align: center;
+}
+.main{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: black;
+    position: absolute;
+    top: 756px;
+    width: 100%;
+    height: 143px;
+}
+.redes{
+    color: aliceblue;
+    font-size: 1rem;
+    text-decoration: none;
+    display: ;
+    border-color: aqua;
+    width: 90px;
+    padding: 
+    
+}
