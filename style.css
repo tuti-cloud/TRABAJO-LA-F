@@ -38,13 +38,21 @@ body{
     background-color: transparent;
     width: 50%;
     height: 143px;
+    margin-left:500px;
+    position: relative;
 }
 .f30{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #e8eff0;
     text-align: center;
     background-color: transparent;
+}
+.containerf30{
+    width: 50%;
+    margin-left: 650px;
+    margin-top: 230px;
+    
 }
 .aside{
     background-color: transparent;
@@ -71,9 +79,8 @@ footer{
     color: aliceblue;
     font-size: 1rem;
     text-decoration: none;
-    display: ;
     border-color: aqua;
     width: 90px;
-    padding: 
+    
     
 }
