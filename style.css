@@ -6,7 +6,7 @@ header{
     align-items: center; 
     padding: 10px; 
     background-color: rgb(127, 236, 255); 
-    height: 100px; 
+    height: 80px; 
     
 }
 .containerbotones{
@@ -18,11 +18,12 @@ header{
 
 }
 .botonesheader{
-    border: 1px solid #ccc; 
-    padding:  10px;  
+    text-decoration: none;
     cursor: pointer; 
-    border-radius: 10px; 
     position: relative;
+    color: black;
+    background-color: transparent;
+    border: transparent;
     
     
 }
@@ -44,16 +45,24 @@ body{
 .f30{
     text-decoration: none;
     font-size: 2rem;
-    color: #e8eff0;
-    text-align: center;
-    background-color: transparent;
+    color: #49a6ad;
+    position: absolute;
+    top: 370px;
+    right: 464px;
+    
+    
+    
+
 }
 .containerf30{
-    width: 50%;
-    margin-left: 650px;
+    width: 900px;
+    height: 80px;
+    margin-left: 753px;
     margin-top: 230px;
-    
+    background-image: url(img/Captura\ de\ pantalla\ 2024-08-19\ 001516.png);
+    transition: 200ms;
 }
+
 .aside{
     background-color: transparent;
     width: 50%;
@@ -75,12 +84,25 @@ footer{
     width: 100%;
     height: 143px;
 }
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 30px 5px ;
+    flex-wrap: wrap;
+}
+.elementos{
+    list-style: none;
+}
 .redes{
     color: aliceblue;
-    font-size: 1rem;
-    text-decoration: none;
-    border-color: aqua;
-    width: 90px;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 200ms;
     
-    
+}
+.redes :hover{
+    transform: scale(1.5);
 }
