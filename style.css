@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
     display: flex;
@@ -42,13 +43,13 @@ body{
     margin-left:500px;
     position: relative;
 }
-.f30{
+.TOP6{
     text-decoration: none;
     font-size: 2rem;
     color: #49a6ad;
     position: absolute;
     top: 370px;
-    right: 464px;
+    right: 80px;
     
     
     
@@ -63,15 +64,8 @@ body{
     transition: 200ms;
 }
 
-.aside{
-    background-color: transparent;
-    width: 50%;
-    height: 143px;
-}
-.volver{
-    text-decoration: none;
-    text-align: center;
-}
+
+
 .main{
     background-color: transparent;
     width: 100%;
@@ -105,4 +99,57 @@ footer{
 }
 .redes :hover{
     transform: scale(1.5);
+}
+/* comienzo pagfina 2 */
+
+.portadas{
+    box-shadow: 0px 0px 2px 2px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin-bottom: rem;
+    transition: 200ms;
+    padding: 23px;
+    background-color: aliceblue;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+}
+.contenedorportadas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aside{
+    background-color: transparent;
+    width: 50%;
+    height: 143px;
+}
+.volver{
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    color: antiquewhite;
+    margin-top: 333px;
+    position: relative;
+    
+}
+.containervolver{
+    width: 1653px;
+    height: 80px;
+    position: absolute;
+    top: 679px;
+   background-color: lightcoral;
+    text-align: center;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    margin: 10px ;
 }
